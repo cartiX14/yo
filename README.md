@@ -64,7 +64,7 @@ journalctl -xe
 
 🧪 Testé sur : Arch Linux, Ubuntu 20.04, Debian 12
 
-📘 Ressources Utiles
+## 📘 Ressources Utiles
 Arch Wiki – La Bible
 
 Explainshell – Explication de commandes
@@ -75,7 +75,7 @@ Bootstrap Docs
 
 Cheat.sh – Commandes rapides
 
-🧭 Roadmap / Améliorations futures
+## 🧭 Roadmap / Améliorations futures
  Ajouter un script de monitoring système
 
  Ajouter une page web en Flask avec stats système
@@ -84,7 +84,7 @@ Cheat.sh – Commandes rapides
 
  Ajouter des tests unitaires à mes scripts Python
 
-💬 FAQ
+## 💬 FAQ
 Q : Pourquoi avoir choisi Arch Linux ?
 R : Pour la personnalisation totale de la distribution. Arch me permet de construire mon environnement exactement comme je le veux, sans bloatware.
 
@@ -92,5 +92,5 @@ Q : Pourquoi ce dépôt ?
 R : C’est mon espace de travail public, de tests et d’apprentissage.
 
 Q : Y'aura-t-il des codes dans le futur ?
-R : Oui, absolument ! Je prévois d'ajouter plusieurs projets de développement, principalement des scripts d'automatisation et des applications web. Restez à l'affût ! 🚀
+R : Oui, absolument ! Je prévois d'ajouter plusieurs projets de développement, Restez à l'affût ! 🚀
 
