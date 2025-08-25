@@ -1,4 +1,5 @@
-![Description de l'image]([URL_de_l_image](https://user-images.githubusercontent.com/23727056/87433896-78ae9700-c607-11ea-9ca6-9cdbe3f67998.jpg))
+![Description de l'image](https://datascientest.com/wp-content/uploads/2022/07/linux2.png)
+
 
 # ⚙️ Mon Portfolio Technique – ["Osama"]
 
