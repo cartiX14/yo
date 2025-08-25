@@ -55,7 +55,11 @@ systemctl status sshd
 
 # Voir les logs récents
 journalctl -xe
+
+```
+
 🛠️ Environnement de Développement
+
 🖥️ OS principal : Arch Linux
 
 💻 Éditeur : VS Code avec extensions Python, Bash, Prettier
@@ -67,6 +71,7 @@ journalctl -xe
 ---
 
 ## 📘 Ressources Utiles
+
 Arch Wiki – La Bible
 
 Explainshell – Explication de commandes
