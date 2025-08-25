@@ -17,12 +17,11 @@ Mon objectif : concevoir des outils simples, efficaces et réutilisables pour au
 
 ## 🧠 Compétences Techniques
 
-- 🐧 **Linux** : Arch, Debian, Systemd, Bash
+- 🐧 **Linux** : Arch, Debian, Systemd, Bash, kitty
 - 🐍 **Python** : Scripts, automatisation, parsing, API
 - 🧮 **SQL** : MySQL, PostgreSQL, requêtes avancées
-- 🌐 **Web** : HTML, CSS (Sass), JavaScript (Vanilla, DOM)
-- ⚙️ **DevOps** : Git, cron, SSH, rsync, journald
-- 🔍 **Monitoring** : htop, netstat, lsof, systemctl, journalctl
+- 🌐 **Web** : HTML, CSS , JavaScrip
+- ⚙️ **DevOps** : Git
 
 ---
 
