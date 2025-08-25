@@ -58,7 +58,7 @@ journalctl -xe
 
 ```
 
-🛠️ Environnement de Développement
+## 🛠️ Environnement de Développement
 
 🖥️ OS principal : Arch Linux
 
