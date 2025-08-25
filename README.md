@@ -1,6 +1,3 @@
-![Description de l'image](https://datascientest.com/wp-content/uploads/2022/07/linux2.png)
-
-
 # ⚙️ Mon Portfolio Technique – ["Osama"]
 
 Bienvenue sur mon portfolio technique. Ici, tu trouveras :
@@ -109,4 +106,6 @@ R : C’est mon espace de travail public, de tests et d’apprentissage.
 
 Q : Y'aura-t-il des codes dans le futur ?
 R : Oui, absolument ! Je prévois d'ajouter plusieurs projets de développement, Restez à l'affût ! 🚀
+
+![Description de l'image](https://datascientest.com/wp-content/uploads/2022/07/linux2.png)
 
