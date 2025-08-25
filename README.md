@@ -55,47 +55,42 @@ systemctl status sshd
 
 # Voir les logs récents
 journalctl -xe
-## 🛠️ Environnement de Développement
+🛠️ Environnement de Développement
+🖥️ OS principal : Arch Linux
 
----
+💻 Éditeur : VS Code avec extensions Python, Bash, Prettier
 
-- 🖥️ OS principal : Arch Linux
-- 💻 Éditeur : VS Code avec extensions Python, Bash, Prettier
-- 🔧 Terminal : Alacritty + zsh + Oh My Zsh
-- 🧪 Testé sur : Arch Linux, Ubuntu 20.04, Debian 12
+🔧 Terminal : Alacritty + zsh + Oh My Zsh
 
-## 📘 Ressources Utiles
+🧪 Testé sur : Arch Linux, Ubuntu 20.04, Debian 12
 
-- [Arch Wiki – La Bible](https://wiki.archlinux.org/)
-- [Explainshell – Explication de commandes](https://explainshell.com/)
-- [DevDocs – Documentation centralisée](https://devdocs.io/)
-- [Bootstrap Docs](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-- [Cheat.sh – Commandes rapides](https://cheat.sh/)
+📘 Ressources Utiles
+Arch Wiki – La Bible
 
----
+Explainshell – Explication de commandes
 
-### ✅ 7. **🧭 Roadmap / Améliorations futures**
-Ajoute ce que tu comptes faire plus tard :
-```md
-## 🧭 Roadmap
+DevDocs – Documentation centralisée
 
-- [ ] Ajouter un script de monitoring système
-- [ ] Ajouter une page web en Flask avec stats système
-- [ ] Créer un script d'installation automatique pour Arch
-- [ ] Ajouter des tests unitaires à mes scripts Python
+Bootstrap Docs
 
----
+Cheat.sh – Commandes rapides
 
-## 💬 FAQ
+🧭 Roadmap / Améliorations futures
+ Ajouter un script de monitoring système
 
-**Q : Pourquoi avoir choisi Arch Linux ?**  
+ Ajouter une page web en Flask avec stats système
+
+ Créer un script d'installation automatique pour Arch
+
+ Ajouter des tests unitaires à mes scripts Python
+
+💬 FAQ
+Q : Pourquoi avoir choisi Arch Linux ?
 R : Pour la personnalisation totale de la distribution. Arch me permet de construire mon environnement exactement comme je le veux, sans bloatware.
 
-**Q : Pourquoi ce dépôt ?**  
+Q : Pourquoi ce dépôt ?
 R : C’est mon espace de travail public, de tests et d’apprentissage.
 
-**Q : Y'aura-t-il des codes dans le futur ?**  
-R : Oui, absolument ! Je prévois d'ajouter plusieurs projets de développement
-
-
+Q : Y'aura-t-il des codes dans le futur ?
+R : Oui, absolument ! Je prévois d'ajouter plusieurs projets de développement, principalement des scripts d'automatisation et des applications web. Restez à l'affût ! 🚀
 
