@@ -1,12 +1,58 @@
-<h1 align="center">Hi 👋, I'm Osama</h1>
-<h3 align="center">🔭 I’m currently working on penetration testing on Linux.</h3>
+# ⚙️ Mon Portfolio Technique – ["Osama"]
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=var-osama" alt="var-osama" /></a> </p>
+Bienvenue sur mon portfolio technique. Ici, tu trouveras :
+- Des projets en Python, SQL, JavaScript, HTML/CSS
+- Des scripts pour l’administration système
+- Des commandes utiles pour Arch Linux
+- Et bien plus...
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+## 🚀 À propos de moi
 
+Je suis passionné par l’informatique d’exploitation, le développement web, l’automatisation et les systèmes GNU/Linux.  
+Mon objectif : concevoir des outils simples, efficaces et réutilisables pour automatiser, sécuriser et surveiller les systèmes.
+
+---
+
+## 🧠 Compétences Techniques
+
+- 🐧 **Linux** : Arch, Debian, Systemd, Bash
+- 🐍 **Python** : Scripts, automatisation, parsing, API
+- 🧮 **SQL** : MySQL, PostgreSQL, requêtes avancées
+- 🌐 **Web** : HTML, CSS (Sass), JavaScript (Vanilla, DOM)
+- ⚙️ **DevOps** : Git, cron, SSH, rsync, journald
+- 🔍 **Monitoring** : htop, netstat, lsof, systemctl, journalctl
+
+---
+
+## 📂 Projets et Scripts
+
+### 🔧 Outils Linux / Scripts
+
+| Projet | Description | Technologies |
+|--------|-------------|--------------|
+| [📦 auto-backup.sh](./scripts/auto-backup.sh) | Script de sauvegarde automatique avec `rsync` | Bash |
+| [🔥 service-monitor.py](./scripts/service-monitor.py) | Vérifie si un service tourne, sinon redémarre | Python + systemctl |
+| [📡 arch-setup.md](./docs/arch-setup.md) | Guide d’installation et de post-install Arch Linux | Markdown |
+
+---
+
+
+## 🐧 Commandes utiles Arch Linux
+
+```bash
+# Installer un paquet
+sudo pacman -S <package>
+
+# Mettre à jour tout le système
+sudo pacman -Syu
+
+# Rechercher un paquet
+pacman -Ss <mot-clé>
+
+# Voir l’état d’un service
+systemctl status sshd
+
+# Voir les logs récents
+journalctl -xe
