@@ -5,8 +5,6 @@
 ![Top Language](https://img.shields.io/github/languages/top/cartiX14/var-osama)
 ![License](https://img.shields.io/github/license/cartiX14/var-osama?cacheSeconds=60)
 
-![Lang](https://img.shields.io/github/languages/top/cartiX14/var-osama)
-
 
 Bienvenue sur mon portfolio technique. Ici, tu trouveras :
 - Des projets en Python, SQL, JavaScript, HTML/CSS
