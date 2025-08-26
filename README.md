@@ -6,6 +6,7 @@
 ![License](https://img.shields.io/github/license/cartiX14/var-osama?cacheSeconds=60)
 
 
+
 Bienvenue sur mon portfolio technique. Ici, tu trouveras :
 - Des projets en Python, SQL, JavaScript, HTML/CSS
 - Des scripts pour l’administration système
