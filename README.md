@@ -115,3 +115,8 @@ R : Oui, absolument ! Je prévois d'ajouter plusieurs projets de développement,
 ## Os
 ![Description de l'image](https://datascientest.com/wp-content/uploads/2022/07/linux2.png)
 
+📄 Licence
+
+Ce projet est sous licence MIT – voir le fichier [LICENSE](./LICENSE) pour plus d’informations.
+
+
