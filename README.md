@@ -1,9 +1,9 @@
 # ⚙️ Mon Portfolio Technique – ["Osama"]
 
-![Repo Size](https://img.shields.io/github/repo-size/cartiX14/portfolio)
-![Last Commit](https://img.shields.io/github/last-commit/cartiX14/portfolio)
-![Top Language](https://img.shields.io/github/languages/top/cartiX14/portfolio)
-![License](https://img.shields.io/github/license/cartiX14/portfolio)
+![Repo Size](https://img.shields.io/github/repo-size/cartiX14/var-osama)
+![Last Commit](https://img.shields.io/github/last-commit/cartiX14/var-osama)
+![Top Language](https://img.shields.io/github/languages/top/cartiX14/var-osama)
+![License](https://img.shields.io/github/license/cartiX14/var-osama)
 
 Bienvenue sur mon portfolio technique. Ici, tu trouveras :
 - Des projets en Python, SQL, JavaScript, HTML/CSS
