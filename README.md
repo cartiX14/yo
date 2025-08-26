@@ -1,6 +1,5 @@
 # ⚙️ Mon Portfolio Technique – ["Osama"]
 
-![Stars](https://img.shields.io/github/stars/cartiX14/var-osama?style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/cartiX14/var-osama)
 ![Last Commit](https://img.shields.io/github/last-commit/cartiX14/var-osama)
 ![Top Language](https://img.shields.io/github/languages/top/cartiX14/var-osama)
