@@ -1,94 +1,88 @@
+/*css
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <title>Portfolio avec fond animé Three.js</title>
+  <meta charset="UTF-8">
+  <title>le portfolio</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
-    /* Style pour que le canvas prenne tout l’écran */
-    body, html {
-      margin: 0;
-      height: 100%;
-      overflow: hidden;
+    body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background-color: #1e1e2f;
       color: #f0f0f0;
+      margin: 0;
+      padding: 0;
     }
-    canvas {
-      display: block;
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1; /* Derrière tout le contenu */
-    }
-    header, section, footer {
-      position: relative;
-      z-index: 1; /* Devant le canvas */
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
+
     header {
+      background-color: #292946;
+      padding: 40px 20px;
       text-align: center;
-      padding-top: 60px;
     }
+
     header h1 {
+      margin: 0;
       font-size: 3em;
-      margin-bottom: 0;
     }
-    header p {
-      font-size: 1.2em;
-      margin-top: 0;
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
     }
+
     section h2 {
-      color: #ffcc00;
       border-bottom: 2px solid #444;
       padding-bottom: 10px;
-      margin-top: 40px;
+      margin-bottom: 20px;
+      color: #ffcc00;
     }
+
     ul {
       list-style-type: none;
       padding: 0;
     }
+
     ul li::before {
       content: "✔️";
       margin-right: 10px;
       color: #00cc99;
     }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #292946;
+      color: #aaa;
+      font-size: 0.9em;
+    }
+
     a {
       color: #00ccff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      color: #aaa;
-      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <!-- Le canvas Three.js sera injecté ici -->
-  
   <header>
-    <h1>Le portfolio d’Osama 🐧</h1>
-    <p>Amateur de Linux et de l'open source</p>
+    <h1>Le portfolio a osama🐧</h1>
+    <p>Coder et amateur de distro Linux</p>
   </header>
 
   <section>
     <h2>À propos de moi</h2>
     <p>Salut ! Je suis un passionné de technologies et de programmation. J’ai commencé avec <strong>Debian</strong> et j’ai exploré jusqu’à <strong>Arch Linux</strong>. J’aime comprendre comment les systèmes fonctionnent de l’intérieur, bidouiller, et optimiser les choses.</p>
     <p>Le terminal est mon ami, et j’adore expérimenter avec des outils open source.</p>
-    <p><em>“Osama” est un pseudonyme que j’utilise en ligne dans mes projets et sur les plateformes de développement.</em></p>
   </section>
 
   <section>
     <h2>Ce que j'aime</h2>
     <ul>
-      <li>Linux (Debian, Arch, Ubuntu,...)</li>
+      <li>Linux (Debian, Arch, Ubuntu, Kali, fedora)</li>
       <li>Coder en HTML, CSS, JavaScript</li>
       <li>Apprendre de nouvelles technos</li>
       <li>Contribuer à des projets open source</li>
@@ -108,16 +102,15 @@
   </section>
 
   <section>
-    <h2>Contact</h2>
-    <p>📧 Email : <a href="mailto:biankannoas@gmail.com">biankannoas@gmail.com</a></p>
-    <p>🔗 GitHub : <a href="https://github.com/cartiX14" target="_blank">cartiX14</a></p>
-    <p>💼 LinkedIn : <a href="https://linkedin.com/in/osama-dev-1bb86a362/" target="_blank">linkedin.com/in/osama-dev-1bb86a362/</a></p>
-  </section>
+  <h2>Contact</h2>
+  <p>📧 Email : <a href="mailto:osama@example.com">biankannoas@gmail.com</a></p>
+  <p>🔗 GitHub : <a href="https://github.com/cartiX14" target="_blank">cartiX14</a></p>
+  <p>💼 LinkedIn : <a href="https://linkedin.com/in/tonprofil" target="_blank">linkedin.com/in/osama-dev-1bb86a362/</a></p>
+</section>
 
   <footer>
     &copy; 2025 - OsamaPortfolio
   </footer>
 
-  </script>
 </body>
-</html>
+</html> tu mettre comme quoi osama ai un pseudo que j'utilise etc,,
