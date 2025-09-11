@@ -1,90 +1,95 @@
-/*css
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>le portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <title>Portfolio avec fond animé Three.js</title>
   <style>
-    body {
+    /* Style pour que le canvas prenne tout l’écran */
+    body, html {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background-color: #1e1e2f;
       color: #f0f0f0;
-      margin: 0;
-      padding: 0;
     }
-
-    header {
-      background-color: #292946;
-      padding: 40px 20px;
-      text-align: center;
+    canvas {
+      display: block;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Derrière tout le contenu */
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 3em;
-    }
-
-    section {
+    header, section, footer {
+      position: relative;
+      z-index: 1; /* Devant le canvas */
       max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+      margin: auto;
+      padding: 20px;
     }
-
+    header {
+      text-align: center;
+      padding-top: 60px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 0;
+    }
     section h2 {
+      color: #ffcc00;
       border-bottom: 2px solid #444;
       padding-bottom: 10px;
-      margin-bottom: 20px;
-      color: #ffcc00;
+      margin-top: 40px;
     }
-
     ul {
       list-style-type: none;
       padding: 0;
     }
-
     ul li::before {
       content: "✔️";
       margin-right: 10px;
       color: #00cc99;
     }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      background-color: #292946;
-      color: #aaa;
-      font-size: 0.9em;
-    }
-
     a {
       color: #00ccff;
       text-decoration: none;
     }
-
     a:hover {
       text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      color: #aaa;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
+  <!-- Le canvas Three.js sera injecté ici -->
+  
   <header>
-    <h1>Le portfolio a osama🐧</h1>
+    <h1>Le portfolio d’Osama 🐧</h1>
     <p>Amateur de Linux et de l'open source</p>
   </header>
 
   <section>
-  <h2>À propos de moi</h2>
-  <p>Salut ! Je suis un passionné de technologies et de programmation. J’ai commencé avec <strong>Debian</strong> et j’ai exploré jusqu’à <strong>Arch Linux</strong>. J’aime comprendre comment les systèmes fonctionnent de l’intérieur, bidouiller, et optimiser les choses.</p>
-  <p>J’adore expérimenter avec des outils open source.</p>
-  <p><em>“Osama” est un pseudonyme que j’utilise en ligne dans mes projets et sur les plateformes de développement.</em></p>
-</section>
+    <h2>À propos de moi</h2>
+    <p>Salut ! Je suis un passionné de technologies et de programmation. J’ai commencé avec <strong>Debian</strong> et j’ai exploré jusqu’à <strong>Arch Linux</strong>. J’aime comprendre comment les systèmes fonctionnent de l’intérieur, bidouiller, et optimiser les choses.</p>
+    <p>Le terminal est mon ami, et j’adore expérimenter avec des outils open source.</p>
+    <p><em>“Osama” est un pseudonyme que j’utilise en ligne dans mes projets et sur les plateformes de développement.</em></p>
+  </section>
 
   <section>
     <h2>Ce que j'aime</h2>
     <ul>
-      <li>Linux (Debian, Arch, Ubuntu, Fedora, Kali Linux)</li>
-      <li>Coder en HTML, CSS, JavaScript, python, (j'apprends le c++ et Java)</li>
+      <li>Linux (Debian, Arch, Ubuntu,...)</li>
+      <li>Coder en HTML, CSS, JavaScript</li>
       <li>Apprendre de nouvelles technos</li>
       <li>Contribuer à des projets open source</li>
       <li>Automatiser avec bash / scripts</li>
@@ -103,15 +108,52 @@
   </section>
 
   <section>
-  <h2>Contact</h2>
-  <p>📧 Email : <a href="mailto:osama@example.com">biankannoas@gmail.com</a></p>
-  <p>🔗 GitHub : <a href="https://github.com/cartiX14" target="_blank">cartiX14</a></p>
-  <p>💼 LinkedIn : <a href="https://linkedin.com/in/tonprofil" target="_blank">linkedin.com/in/osama-dev-1bb86a362/</a></p>
-</section>
+    <h2>Contact</h2>
+    <p>📧 Email : <a href="mailto:biankannoas@gmail.com">biankannoas@gmail.com</a></p>
+    <p>🔗 GitHub : <a href="https://github.com/cartiX14" target="_blank">cartiX14</a></p>
+    <p>💼 LinkedIn : <a href="https://linkedin.com/in/osama-dev-1bb86a362/" target="_blank">linkedin.com/in/osama-dev-1bb86a362/</a></p>
+  </section>
 
   <footer>
     &copy; 2025 - OsamaPortfolio
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script>
+    // Setup scène, caméra, renderer
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({antialias: true});
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+    renderer.domElement.style.position = 'fixed';
+    renderer.domElement.style.top = '0';
+    renderer.domElement.style.left = '0';
+    renderer.domElement.style.zIndex = '-1';
+
+    // Cube fil de fer
+    const geometry = new THREE.BoxGeometry();
+    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00, wireframe: true });
+    const cube = new THREE.Mesh(geometry, material);
+    scene.add(cube);
+
+    camera.position.z = 5;
+
+    // Animation
+    function animate() {
+      requestAnimationFrame(animate);
+      cube.rotation.x += 0.01;
+      cube.rotation.y += 0.01;
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    // Ajuster le rendu à la taille de la fenêtre
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth/window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+  </script>
 </body>
 </html>
