@@ -131,11 +131,14 @@
     renderer.domElement.style.left = '0';
     renderer.domElement.style.zIndex = '-1';
 
-    // Cube fil de fer
-    const geometry = new THREE.BoxGeometry();
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00, wireframe: true });
-    const cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
+   // Cube fil de fer
+const geometry = new THREE.BoxGeometry(2, 2, 2); // cube plus grand
+const material = new THREE.MeshBasicMaterial({ color: 0xff0000, wireframe: false }); // rouge plein
+const cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
+
+camera.position.z = 3; // caméra plus proche du cube
+
 
     camera.position.z = 5;
 
